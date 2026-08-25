@@ -1,0 +1,11 @@
+# 简历用三条量化句（示例，可根据实际结果替换 X/Y/Z）
+
+中文（示例，可根据实际结果替换 X/Y/Z）：
+- 开发短期需求预测与安全库存流水线（ExponentialSmoothing / Prophet + 自定义安全库存公式），为 10 个重点 SKU 生成 SKU 级补货建议与 ROP 表，示例中预计将缺货天数降低约 X%。
+- 使用 12 个月历史销量数据构建库存周转与安全库存计算，输出可下发的 CSV 补货表并在 Streamlit 上部署 demo，帮助 PM 快速决策（演示包含 Top-N 高风险 SKU）。
+- 将预测误差纳入安全库存计算并对比传统方法，示例显示基于预测误差的安全库存比基于原始需求方差的库存调整更稳定，预计降低过量持有成本 Y%。
+
+English (templates / replace X/Y/Z with measured values):
+- Built a short-term demand forecasting & safety-stock pipeline (ExponentialSmoothing / Prophet) producing SKU-level replenishment recommendations and ROP tables for 10 SKUs; reduced expected stockout days by ~X% in the sample analysis.
+- Processed 12 months of historical sales to compute turnover and safety stock, exported replenishment CSVs and deployed a Streamlit demo for operational use (includes Top-N risk SKU list).
+- Incorporated model forecast errors into safety-stock calculations and benchmarked against naive demand-variance method, demonstrating more stable buffer sizing and estimated holding cost reduction of Y%.

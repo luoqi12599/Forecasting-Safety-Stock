@@ -1,0 +1,15 @@
+pandas
+numpy
+scipy
+scikit-learn
+matplotlib
+seaborn
+statsmodels
+streamlit
+xgboost
+joblib
+fastapi
+uvicorn[standard]
+openai
+jupyter
+jupytext
